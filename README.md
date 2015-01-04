@@ -21,7 +21,7 @@ var obj1 = {
         b: [2,3],
         c: {foo: 'bar'}
     },
-    e: function() { return 1; }.toString(),
+    e: function() { return 1; },
     g: [8,9]
 };
 
@@ -57,7 +57,7 @@ console.log(obj4);
     },
     c: {foo: 'bar'}
   },
-  e: function() { return 1; }.toString(),
+  e: function() { return 1; },
   f: 'qux',
   g: ['a','b'],
   h: 'baz'
