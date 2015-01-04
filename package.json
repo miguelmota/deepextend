@@ -1,0 +1,43 @@
+{
+  "name": "deepextend",
+  "version": "0.0.1",
+  "description": "Deep object extending",
+  "main": "deepextend.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/deepextend"
+  },
+  "keywords": [
+    "object",
+    "extend",
+    "curry"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/deepextend/issues"
+  },
+  "homepage": "https://github.com/miguelmota/deepextend",
+  "dependencies": {
+    "tape": "^3.0.3"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  }
+}

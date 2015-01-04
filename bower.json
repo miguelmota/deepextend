@@ -1,0 +1,23 @@
+{
+  "name": "deepextend",
+  "main": "deepextend.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/miguelmota/deepextend",
+  "authors": [
+    "Miguel Mota <miguelmota2@gmail.com>"
+  ],
+  "description": "Deep object extending",
+  "keywords": [
+    "object",
+    "extend",
+    "curry"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}
