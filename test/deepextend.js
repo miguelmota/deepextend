@@ -2,7 +2,7 @@ var test = require('tape');
 var deepExtend = require('../deepextend');
 
 test('deepextend', function (t) {
-  t.plan(2);
+  t.plan(7);
 
   var obj1 = {
       a: 'A',
@@ -55,4 +55,17 @@ test('deepextend', function (t) {
   t.notDeepEqual(obj1, expected);
   t.deepEqual(obj4, expected);
 
+  t.deepEqual(deepExtend(), {});
+  t.throws(function () {
+    deepExtend(1);
+  });
+  t.throws(function () {
+    deepExtend([]);
+  });
+  t.throws(function () {
+    deepExtend('a');
+  });
+  t.throws(function () {
+    deepExtend(function(){});
+  });
 });
